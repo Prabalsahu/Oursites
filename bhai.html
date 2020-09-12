@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+<h2>My website is</h2>  
+<a href="https://www.icc-cricket.com/html/" target=_blank > visit our icc-cricket </a> <br/> 
+<iframe src="https://www.icc-cricket.com/html/" style="height:500px; width:1300px;"></iframe>
+<h3 style="border:2px solid Tomato;"> My name is Virat Kohli </h3> 
+<img src="virat kohli.jpeg "/> <br/> <hr/>
+<h4>Videos</h4>
+<video width="500px" height="500px" controls poster="virat kohli.jpeg"> 
+<source src="pilla.mp4" type="video/mp4">
+</video>
+<h5>Stats</h5>
+
+<table>
+  <tr>
+    <th>Format</th>
+    <th>Matches</th>
+    <th>Runs</th>
+    <th>Wickets</th>
+    <th>Catches</th>
+  </tr>
+  <tr>
+    <td>ODI</td>
+    <td>248</td>
+    <td>11867</td>
+    <td>4</td>
+    <td>128</td>
+  </tr>
+  <tr>
+    <td>T20I</td>
+    <td>82</td>
+    <td>2794</td>
+    <td>4</td>
+    <td>41</td>
+  </tr>
+  <tr>
+    <td>Test</td>
+    <td>86</td>
+    <td>7240</td>
+    <td>0</td>
+    <td>82</td>
+  </tr>
+  <tr>
+    <td>IPL</td>
+    <td>177</td>
+    <td>5412</td>
+    <td>4</td>
+    <td>73</td>
+  </tr>
+</table><br/>
+<br/>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click to display Date and Time.</button>
+
+<p id="demo"></p>
+<h6>Form</h6>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Virat"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Kohli"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<iframe width="420" height="345" src="https://www.youtube.com/watch?v=1lRDV5DJMe4">
+</iframe> 
+</body>
+</html>
+
